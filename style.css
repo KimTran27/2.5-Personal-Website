@@ -1,1 +1,139 @@
-body {background:blue}
+body {
+	position: relative;
+	font-size: 14px;
+	line-height: normal;
+	font-family: Roboto, serif;
+    max-width: 960px;
+    background: white!important;
+    display: inline-block;
+    vertical-align: text-top;
+}
+main {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 80%;
+}
+
+h1, h2, h3 {
+    font-family: 'Pathway Gothic One',sans-serif;
+}
+h2 {
+	display: inline-block;
+    vertical-align: text-top;
+}
+h3 {
+    font-size: 35.5px;
+}
+h4 {
+    font-size: 35.5px;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.image-container{
+	padding: 10px;
+}
+
+#hachi-image {
+    max-width: 90%;
+    background: #efefef;
+    float: none;
+    margin: 0px auto!;
+}
+
+#external-links ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#external-links {
+	font-size:12px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 15%;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+}
+#topintro {
+	font-style: italic;
+	font-size: 25px;
+	font-family: Serif;
+    text-align: relative;
+
+}
+
+#photos {
+  display: inline-block;
+  color: white;
+  vertical-align: text-bottom;
+  position: relative;
+  height: 30%;
+  width: 80%;
+  border: 1px solid grey;
+  padding: 30px;
+  margin: 0px;
+  border-top-style: solid;
+  border-top-width: 20px;
+  border-top-color: #66ff99;
+  background-image: url("Summer-Grass.jpg");
+}
+#Hach {
+	width: 80%
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+  width: 100% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 800px)
+body {
+	min-width: 300px;
+}
+@media handheld and (grid) and (max-width: 15em) {  }
